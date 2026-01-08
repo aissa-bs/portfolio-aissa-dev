@@ -13,7 +13,7 @@ import { SocialBar } from "./components/SocialBar";
 import { SectionId, WindowState } from "./types";
 import { NAV_ITEMS } from "./constants";
 import { Menu, Sun, Moon } from "lucide-react";
-import profileImg from "./Assets/Gemini_Generated_Image_cf1bddcf1bddcf1b.png";
+import profileImg from "./Assets/aissadev.png";
 
 const INITIAL_WINDOWS: Record<SectionId, WindowState> = {
   home: { id: "home", isOpen: false, zIndex: 0, position: { x: 0, y: 0 } },

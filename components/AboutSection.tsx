@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MapPin, Calendar, BookOpen, UserCheck, ArrowRight, ChevronLeft, GraduationCap, Briefcase } from 'lucide-react';
 import { EDUCATION_HISTORY, EXPERIENCE_HISTORY } from '../constants';
-import profileImg from '../Assets/Gemini_Generated_Image_cf1bddcf1bddcf1b.png';
+import profileImg from '../Assets/aissadev.png';
 
 
 type DetailView = 'none' | 'education' | 'experience';
