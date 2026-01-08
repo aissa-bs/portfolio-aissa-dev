@@ -4,7 +4,7 @@ import { Download, ZoomIn, ZoomOut, FileText } from 'lucide-react';
 export const CVSection: React.FC = () => {
   const [zoom, setZoom] = useState(1);
   // Using a sample PDF for demonstration. Replace with your actual CV URL.
-  const cvUrl = "/cv.pdf"; 
+  const cvUrl ="./cv.pdf"; 
 
   const handleZoomIn = () => setZoom(prev => Math.min(prev + 0.1, 2));
   const handleZoomOut = () => setZoom(prev => Math.max(prev - 0.1, 0.5));
