@@ -9,11 +9,11 @@ import {
 
 export const SocialBar: React.FC = () => {
   const socialLinks = [
-    { icon: FaFacebook, url: 'https://facebook.com', label: 'Facebook' },
-    { icon: FaInstagram, url: 'https://instagram.com', label: 'Instagram' },
-    { icon: FaLinkedin, url: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: FaBehance, url: 'https://behance.net', label: 'Behance' },
-    { icon: FaGithub, url: 'https://github.com', label: 'GitHub' },
+    { icon: FaFacebook, url: 'https://www.facebook.com/ais.sa.186', label: 'Facebook' },
+    { icon: FaInstagram, url: 'https://www.instagram.com/aissabs/', label: 'Instagram' },
+    { icon: FaLinkedin, url: 'https://www.linkedin.com/in/aissa-bensadia', label: 'LinkedIn' },
+    { icon: FaBehance, url: 'https://www.behance.net/aissabs', label: 'Behance' },
+    { icon: FaGithub, url: 'https://github.com/aissa-bs', label: 'GitHub' },
   ];
 
   return (
