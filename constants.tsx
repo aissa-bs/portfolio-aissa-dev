@@ -4,6 +4,8 @@ import enthusImg from './Assets/enthus.jpg';
 import enthusnotesImg from './Assets/enthusnotes.png';
 import pdfImg from './Assets/pdfservice.png';
 import sentizerImg from './Assets/sentiment.png';
+import coloruxImg from './Assets/colorux.png';
+
 
 export const NAV_ITEMS: NavItem[] = [
   { id: 'home', label: 'Home', icon: Home },
@@ -25,8 +27,18 @@ export const PROJECTS: Project[] = [
     demoUrl: "https://github.com/aissa-bs/ENTHUS-",
     repoUrl: "https://github.com/aissa-bs/ENTHUS-"
   },
-  {
+    {
     id: 2,
+    title: "Colorux",
+    shortDesc: "Ultimate Design Toolkit : Palettes , colors and creativity .",
+    fullDesc: "The all-in-one platform for creators. Generate harmonious palettes, extract colors from images, find named color matches with our Smart Matcher, and export to CSS instantly.",
+    technologies: ["Html","Js", "React", "TypeScript", "CSS"],
+    imageUrl: coloruxImg,
+    demoUrl: "https://colurux.vercel.app/",
+    repoUrl: "https://colurux.vercel.app/"
+  },
+  {
+    id: 3,
     title: "eENthus notes",
     shortDesc: "Enthus Notes is a clean and powerful notes app that helps you capture ideas, organize thoughts, and stay productive effortlessly.",
     fullDesc: "Enthus Notes is a modern note-taking app designed to keep your ideas, tasks, and thoughts organized in one simple place. Whether you’re jotting down quick ideas, planning projects, or managing daily notes, Enthus Notes offers a smooth and distraction-free experience.",
@@ -36,7 +48,7 @@ export const PROJECTS: Project[] = [
     repoUrl: "https://github.com/aissa-bs/ENTHUS-NOTES"
   },
   {
-    id: 3,
+    id: 4,
     title: "Pdf Service",
     shortDesc: "A smart PDF service website that lets you upload, search, analyze, and summarize PDF documents quickly using AI.",
     fullDesc: "This PDF service website provides a powerful and easy way to work with PDF documents online. Users can upload PDF files, search through their content, extract key information, and generate intelligent summaries with the help of AI.",
@@ -46,7 +58,7 @@ export const PROJECTS: Project[] = [
     repoUrl: "https://github.com/aissa-bs/aissa-pdfservice-project"
   },
   {
-    id: 4,
+    id: 5,
     title: "Sentizer",
     shortDesc: "Sentiment Analysis Desc App with AI.",
     fullDesc: "Sentizer is an AI-powered desktop application designed to perform accurate sentiment analysis on text data. It helps users understand emotions, opinions, and tone by analyzing content such as customer feedback, reviews, messages, and documents.",
